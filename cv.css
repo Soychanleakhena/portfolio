@@ -1,0 +1,72 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    background-color: #CEEBCA;
+
+}
+/* .left{
+    width: 50%;
+    height: auto;
+    background-color:#AAEB9F;
+    float: left;
+} */
+.menu{
+    width: 100%;
+    height: auto;
+    float: right;
+    background-color:#AAEB9F;
+
+}
+.menu ul{
+    float: right;
+    list-style-type: none;
+    
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    text-transform: condensed;
+    
+}
+.menu ul li a:hover{
+    background-color:#CEEBCA;
+    padding: 10px;
+}
+.main{
+    width: 600px;
+    color: black;
+    padding: 20px;
+    position: absolute;
+    top: 15%;
+    left: 8%;
+}
+/* .main h1{
+   font-size: 
+} */
+.main p{
+    font-size: 30px;
+    line-height: 1.5;
+ 
+}
+.main h1{
+    font-size: 50px;
+   
+}   
+.main h3{
+    font-family:'IBM Plex Sans', sans-serif;
+    
+}
+   
+
+ 
+
+
+
+
