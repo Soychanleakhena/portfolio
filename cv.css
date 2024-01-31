@@ -5,12 +5,13 @@
     background-color: #CEEBCA;
 
 }
-/* .left{
-    width: 50%;
+.left{
+    width: 100%;
     height: auto;
     background-color:#AAEB9F;
     float: left;
-} */
+    overflow: hidden;
+}
 .menu{
     width: 100%;
     height: auto;
@@ -28,11 +29,12 @@
 }
 .menu ul li a{
     display: block;
-    padding: 15px;
+    padding: 20px;
     text-decoration: none;
     font-size: 25px;
     color: black;
     text-transform: condensed;
+    margin-right: 50px;
     
 }
 .menu ul li a:hover{
@@ -42,27 +44,100 @@
 .main{
     width: 600px;
     color: black;
-    padding: 20px;
+    padding: 2px;
     position: absolute;
     top: 15%;
-    left: 8%;
+    left: 13%;
 }
 /* .main h1{
    font-size: 
 } */
 .main p{
     font-size: 30px;
-    line-height: 1.5;
+    line-height: 1.8;
+    margin-top: 80px;
  
 }
 .main h1{
     font-size: 50px;
+    margin-top: 60px;
    
-}   
+}  
+.main h2{
+    margin-top: 24px;
+} 
 .main h3{
     font-family:'IBM Plex Sans', sans-serif;
+    margin-top: 50px;
+    
+
     
 }
+.icon{
+    width: 1000px;
+    height: auto;
+    position: absolute;
+    bottom: 3%;
+    left: 13%;
+    font-size: 22px;
+}
+.icon-1{
+    width: 1000px;
+    height: auto;
+    position: absolute;
+    bottom: 3%;
+    right: 10%;
+    font-size: 22px;
+    right: -50px;
+}
+.icon-2{
+    width: 1000px;
+    height: auto;
+    position: absolute;
+    bottom: 3%;
+    left: 1400px;
+    font-size: 22px;
+   
+  
+}
+.right{
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+}
+.box{
+    width: 50%;
+    height: 100vh;
+    float: left;
+    display: flex;
+    align-items: center;
+    right:60px ;
+    margin-top: 500px;
+
+
+}
+.box img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 1000px;
+    margin-top: -1300px;
+    
+}
+.main h1{
+    font-size: 50px;
+   
+}
+.main h2{
+    
+    font-size: 30px;
+    margin-top: 2px;
+}
+.main p{
+    font-size: 25px;
+}
+
    
 
  
