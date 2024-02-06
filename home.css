@@ -13,7 +13,7 @@ body{
 }
 header{
     width: 100%;
-    height: auto;
+    height: 100px;
     background-color:#AFF9E7;
     float: left;
     overflow: hidden;
@@ -41,11 +41,11 @@ header{
     color: black;
     text-transform: condensed;
     margin-right: 50px;
+    margin-top: 10px;
     
 }
 .menu nav li a:hover{
-    background-color:#CEEBCA;
-    padding: 10px;
+    background-color:aqua;
 }
 .main{
     width: 600px;
@@ -77,37 +77,6 @@ header{
 .main h3{
     font-family:'IBM Plex Sans', sans-serif;
     margin-top: 50px;
-    
-
-    
-}
-.icon{
-    width: 1000px;
-    height: auto;
-    position: absolute;
-    bottom: 3%;
-    left: 13%;
-    font-size: 22px;
-   
-}
-.icon-1{
-    width: 1000px;
-    height: auto;
-    position: absolute;
-    bottom: 3%;
-    right: 10%;
-    font-size: 22px;
-    right: -50px;
-}
-.icon-2{
-    width: 1000px;
-    height: auto;
-    position: absolute;
-    bottom: 3%;
-    left: 1400px;
-    font-size: 22px;
-   
-  
 }
 .image{
     width: 40%;

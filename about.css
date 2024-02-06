@@ -6,9 +6,12 @@
     overflow: hidden;
 
 }
-.header{
+body{
+    background-color: #D9FCF1;
+}
+header{
     width: 100%;
-    height: auto;
+    height: 100px;
     background-color:#AFF9E7;
     float: left;
     overflow: hidden;
@@ -36,20 +39,44 @@
     color: black;
     text-transform: condensed;
     margin-right: 50px;
+    margin-top: 15px;
     
 }
 .menu nav li a:hover{
-    background-color:#CEEBCA;
+    background-color:aqua;
     /* padding: 10px; */
 }
 .main h1{
     font-size: 100px;
     flex-direction: 100px;
-    margin-left: 100px;
+    margin-left: 200px;
+    margin-top:10rem ;
+
     
 }
 .main p{
     font-size: 25px;
     line-height: 35px;
-    margin-left: 100px;
+    margin-left: 200px;
+    margin-top: 5rem;
+}
+.image{
+    width: 40%;
+    height: 100vh;
+    float: left;
+    display: flex;
+    align-items: center;
+    right:60px ;
+    margin-top: 430px;
+
+
+}
+.image img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 900px;
+    margin-top: -2200px;
+    
 }
