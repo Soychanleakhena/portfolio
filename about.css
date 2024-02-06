@@ -1,0 +1,55 @@
+.container{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color:#D9FCF1 ;
+    overflow: hidden;
+
+}
+.header{
+    width: 100%;
+    height: auto;
+    background-color:#AFF9E7;
+    float: left;
+    overflow: hidden;
+}
+.menu{
+    width: 100%;
+    height: auto;
+    float: right;
+    background-color:#AFF9E7;
+
+}
+.menu nav{
+    float: right;
+    list-style-type: none;
+    
+}
+.menu nav li{
+    float: left;
+}
+.menu nav li a{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    text-transform: condensed;
+    margin-right: 50px;
+    
+}
+.menu nav li a:hover{
+    background-color:#CEEBCA;
+    /* padding: 10px; */
+}
+.main h1{
+    font-size: 100px;
+    flex-direction: 100px;
+    margin-left: 100px;
+    
+}
+.main p{
+    font-size: 25px;
+    line-height: 35px;
+    margin-left: 100px;
+}

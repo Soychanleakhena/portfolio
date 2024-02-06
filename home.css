@@ -6,7 +6,12 @@
     overflow: hidden;
 
 }
-.left{
+body{
+    background-color: #D9FCF1;
+
+
+}
+header{
     width: 100%;
     height: auto;
     background-color:#AFF9E7;
@@ -20,15 +25,15 @@
     background-color:#AFF9E7;
 
 }
-.menu ul{
+.menu nav{
     float: right;
     list-style-type: none;
     
 }
-.menu ul li{
+.menu nav li{
     float: left;
 }
-.menu ul li a{
+.menu nav li a{
     display: block;
     padding: 20px;
     text-decoration: none;
@@ -38,7 +43,7 @@
     margin-right: 50px;
     
 }
-.menu ul li a:hover{
+.menu nav li a:hover{
     background-color:#CEEBCA;
     padding: 10px;
 }
@@ -104,13 +109,8 @@
    
   
 }
-.right{
-    justify-content: center;
-    align-content: center;
-    margin: auto;
-}
-.box{
-    width: 50%;
+.image{
+    width: 40%;
     height: 100vh;
     float: left;
     display: flex;
@@ -120,7 +120,7 @@
 
 
 }
-.box img{
+.image img{
     width: 500px;
     height: 500px;
     border-radius: 50%;
